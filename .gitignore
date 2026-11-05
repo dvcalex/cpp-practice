@@ -1,0 +1,55 @@
+build/
+out/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio CMake user-specific files
+CMakeUserPresets.json
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Object, dependency, and binary files
+*.o
+*.obj
+*.d
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.elf
+*.gch
+*.pch
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+*.iml
+
+# clangd cache
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.swp
+*.swo
+*~

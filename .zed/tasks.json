@@ -1,0 +1,86 @@
+[
+  {
+    "label": "Configure [debug]",
+    "command": "cmake --preset debug",
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "reveal": "always",
+    "hide": "on_success"
+  },
+  {
+    "label": "Build [debug]",
+    "command": "cmake --build --preset debug",
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "reveal": "always",
+    "hide": "never"
+  },
+  {
+    "label": "Build (verbose) [debug]",
+    "command": "cmake --build --preset debug --verbose",
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "reveal": "always",
+    "hide": "never"
+  },
+  {
+    "label": "Clean [debug]",
+    "command": "cmake --build --preset debug --target clean",
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "reveal": "always",
+    "hide": "on_success"
+  },
+  {
+    "label": "Configure [release]",
+    "command": "cmake --preset release",
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "reveal": "always",
+    "hide": "on_success"
+  },
+  {
+    "label": "Build [release]",
+    "command": "cmake --build --preset release",
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "reveal": "always",
+    "hide": "never"
+  },
+  {
+    "label": "Build (verbose) [release]",
+    "command": "cmake --build --preset release --verbose",
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "reveal": "always",
+    "hide": "never"
+  },
+  {
+    "label": "Clean [release]",
+    "command": "cmake --build --preset release --target clean",
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "reveal": "always",
+    "hide": "on_success"
+  },
+  {
+    "label": "Configure [optimized-with-symbols]",
+    "command": "cmake --preset optimized-with-symbols",
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "reveal": "always",
+    "hide": "on_success"
+  },
+  {
+    "label": "Build [optimized-with-symbols]",
+    "command": "cmake --build --preset optimized-with-symbols",
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "reveal": "always",
+    "hide": "never"
+  },
+  {
+    "label": "Build (verbose) [optimized-with-symbols]",
+    "command": "cmake --build --preset optimized-with-symbols --verbose",
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "reveal": "always",
+    "hide": "never"
+  },
+  {
+    "label": "Clean [optimized-with-symbols]",
+    "command": "cmake --build --preset optimized-with-symbols --target clean",
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "reveal": "always",
+    "hide": "on_success"
+  }
+]

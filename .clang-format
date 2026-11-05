@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=https://www.schemastore.org/clang-format-18.x.json
+Language: Cpp
+BasedOnStyle: LLVM
+
+BreakBeforeBraces: Allman
+ColumnLimit: 120
+PointerAlignment: Left
+ReferenceAlignment: Left
+SortIncludes: Never
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+AccessModifierOffset: -4
+
+SpaceAfterCStyleCast: false
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: false
+SpacesBeforeTrailingComments: 1
+MaxEmptyLinesToKeep: 2
+
+AlignConsecutiveAssignments: None
+AlignConsecutiveDeclarations: None
+AlignOperands: DontAlign
+
+BinPackParameters: false
+BinPackArguments: false
+
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+
+Cpp11BracedListStyle: true
+SpaceBeforeCpp11BracedList: true
+CompactNamespaces: false

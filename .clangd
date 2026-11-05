@@ -1,0 +1,14 @@
+CompileFlags:
+  # Where the debug preset writes compile_commands.json
+  CompilationDatabase: build/debug
+
+Diagnostics:
+  ClangTidy: {}
+  UnusedIncludes: Strict
+  MissingIncludes: Strict
+
+Completion:
+  AllScopes: Yes
+
+Hover:
+  ShowAKA: Yes
